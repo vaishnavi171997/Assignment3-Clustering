@@ -101,3 +101,9 @@ plt.ylabel('Y_Range')
 plt.legend()
 plt.grid()
 plt.show()
+
+##curve fitting##
+
+#Importing curve fit from scipy and error ranges for confidence ranges
+from scipy.optimize import curve_fit
+import err_ranges as err
